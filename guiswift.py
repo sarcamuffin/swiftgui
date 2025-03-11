@@ -1,8 +1,9 @@
 from flask import Flask, render_template, request
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder='static')
 
 @app.route('/', methods=['GET', 'POST'])
+
 def index():
     if request.method == 'POST':
         architecture_value = request.form.get('architecture')

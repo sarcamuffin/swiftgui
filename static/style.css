@@ -2,6 +2,10 @@ body {
     background-color: white;
     font-family: Arial, sans-serif;
 }
+body {
+    background-color: pink !important;
+}
+
 
 .container {
     margin-top: 50px;
@@ -24,6 +28,10 @@ h3 {
     font-style: italic;
     font-weight: bold;
     color:#f4a8da;
+}
+.titre {
+    color :pink;
+
 }
 
 label {
